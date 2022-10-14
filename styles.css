@@ -1,0 +1,190 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.checkbox {
+	display: inline-block;
+  }
+
+  .purple {
+	
+		height: 500px;
+		width: 600px;
+		background-color: rgb(133, 133, 233);
+		text-align: left;
+		
+	}
+
+	.fancy {
+		text-align: center;
+		box-sizing: border-box;
+		width: 150px;
+		height: 150px;
+		padding: 80px 1em 0 1em;
+		margin: 0 100px;
+		position: relative;
+		background-color: #a4c9cf;
+		border-radius: 100% 100% 0 0;
+	  }
+	  
+	  
+	  .fancy::before,
+	  .fancy::after {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		z-index: -1;
+		background-color: #a4c9cf;
+		border-radius: 100%;
+	  }
+	  
+	  .fancy::before {
+		width: 125px;
+		height: 125px;
+		left: -80px;
+		border-bottom-right-radius: 0;
+	  }
+	  
+	  .fancy::after {
+		width: 100px;
+		height: 100px;
+		right: -60px;
+		border-bottom-left-radius: 0;
+	  }
+
+	  .quote{
+		position: relative;
+		bottom: 50px;
+		right: 20px
+	  }
+
+	  .thingsList{
+		width: 150px;
+		height: 150px;
+		background-color: rgb(237, 203, 140);
+		box-shadow: 5px 10px #888888;
+		position: relative;
+		left: 390px;
+		bottom: 80px;
+	  }
+
+	  #Macey{
+		margin: 20px
+	  }
+
+	  .career{
+		height: 180px;
+		width: 260px;
+		font-size: 12px;
+		text-align: justify;
+		background-color: beige;
+		margin: 10px;
+		position: relative;
+		bottom: 140px;
+		left: 80px;
+	  }
+
+	  .careerText{
+		margin:20px;
+		position: relative;
+		top: 11px
+	  }
+
+	  .careerGoals{
+		background-color: rgb(214, 185, 235);
+		height:27px;
+		width: 100px;
+		position: relative;
+		bottom: 115px;
+		left: 59px;
+		text-align: center;
+		z-index: 1;
+		box-shadow: 5px 5px rgba(96, 122, 226, 0.582) ;
+		
+	  }
+
+	  .skills{
+		height: 250px;
+		width: 200px;
+		border: 1px solid black;
+		position:relative;
+		left: 360px;
+		bottom:120px
+	  }
+
+	  .mySkills{
+		text-align: center;
+	  }
+	  
+
+	  .buttons{
+		position: relative;
+		bottom: 400px;
+		right:20px;
+	  }
+
+	  .color{
+		background-color: rgb(245, 245, 168);
+		height: 30px;
+		font-size: 14px;
+		font-weight: 550;
+	  }
+	  .place{
+		background-color: rgb(245, 245, 168);
+		height: 30px;
+		font-size: 14px;
+		font-weight: 550;
+	  }
+	  .ritual{
+		background-color: rgb(245, 245, 168);
+		height: 30px;
+		font-size: 14px;
+		font-weight: 550;
+	  }
+
+	  .activities1{
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+	  }
+	
+	  .activities2{
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+	  }
